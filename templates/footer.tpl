@@ -16,6 +16,7 @@
 		</div>
 	</div>
 	<!-- ENDIF !isSpider -->
+	<!-- IMPORT partials/cd-footer.tpl -->
 
 
 	<script defer src="{relative_path}/assets/nodebb.min.js?{config.cache-buster}"></script>

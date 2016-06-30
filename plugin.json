@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-theme-persona",
+	"id": "nodebb-theme-cd-persona",
 	"library": "library.js",
 	"hooks": [
 		{ "hook": "filter:teasers.get", "method": "getTeasers" },
@@ -10,6 +10,10 @@
 		{ "hook": "filter:topic.build", "method": "addUserToTopic" },
 		{ "hook": "filter:meta.getLinkTags", "method": "getLinkTags"}
 	],
+	"languages": "languages",
+	"staticDirs": {
+		"images": "static/images"
+	},
 	"scripts": [
 		"lib/persona.js",
 		"lib/modules/nprogress.js",
