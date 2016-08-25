@@ -12,13 +12,14 @@
 	],
 	"languages": "languages",
 	"staticDirs": {
-		"images": "static/images"
+		"images": "static/images",
+		"css": "static/css"
 	},
 	"scripts": [
 		"lib/persona.js",
 		"lib/modules/nprogress.js",
 		"lib/modules/autohidingnavbar.min.js",
-		"lib/modules/quickreply.js"
+		"lib/cd-common.min.js"
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"

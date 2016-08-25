@@ -28,6 +28,15 @@
 				<!-- IF !maintenanceHeader -->
 				<!-- IF config.loggedIn -->
 
+				<ul id="logged-in-menu" class="nav navbar-nav navbar-right hide">
+					<li id="user_label" class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="user_dropdown" title="[[global:header.profile]]">
+							<img component="header/userpicture" src="{user.picture}" alt="{user.username}"<!-- IF !user.picture --> style="display: none;"<!-- ENDIF !user.picture --> />
+							<div component="header/usericon" class="user-icon" style="background-color: {user.icon:bgColor};<!-- IF user.picture --> display: none;<!-- ENDIF user.picture -->">{user.icon:text}</div>
+							<span id="user-header-name" class="visible-xs-inline">{user.username}</span>
+						</a>
+					</li>
+				</ul>
 				<ul id="logged-in-menu" class="nav navbar-nav navbar-right">
 					<li class="notifications dropdown text-center hidden-xs" component="notifications">
 						<a href="{relative_path}/notifications" title="[[global:header.notifications]]" class="dropdown-toggle" data-toggle="dropdown" id="notif_dropdown" data-ajaxify="false" role="button">
@@ -186,7 +195,7 @@
 				</ul>
 				<!-- ENDIF config.searchEnabled -->
 
-				<ul class="nav navbar-nav navbar-right hidden-xs">
+				<ul class="nav navbar-nav pull-right hidden-xs">
 					<li>
 						<a href="#" id="reconnect" class="hide" title="Connection to {config.siteTitle} has been lost, attempting to reconnect...">
 							<i class="fa fa-check"></i>
@@ -194,7 +203,7 @@
 					</li>
 				</ul>
 
-				<ul class="nav navbar-nav navbar-right pagination-block visible-lg visible-md">
+				<ul class="nav navbar-nav pull-right pagination-block visible-lg visible-md">
 					<li class="dropdown">
 						<a><i class="fa fa-angle-double-up pointer fa-fw pagetop"></i></a>
 						<a><i class="fa fa-angle-up pointer fa-fw pageup"></i></a>
@@ -237,7 +246,7 @@
 				</ul>
 
 				<!-- ELSE -->
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav pull-right">
 					<li>
 						<a href="{relative_path}/login">
 							<i class="fa fa-sign-in fa-fw hidden-sm hidden-md hidden-lg"></i>

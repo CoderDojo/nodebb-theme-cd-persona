@@ -1,5 +1,6 @@
 *.css
 !less/bootstrap-flipped.css
+!cd-common.min.css
 npm-debug.log
 sftp-config.json
 *.sublime-project
