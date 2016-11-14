@@ -5,7 +5,11 @@
 	<!-- END widgets.header -->
 </div>
 <div class="row">
+<<<<<<< HEAD
 	<div class="category <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
+=======
+	<div class="category col-lg-12 col-sm-12" no-widget-class="category col-lg-12 col-sm-12" no-widget-target="sidebar">
+>>>>>>> Changes to support nodeBB 1.3.0
 		<!-- IMPORT partials/category/subcategory.tpl -->
 
 		<!-- IF children.length --><hr class="hidden-xs"/><!-- ENDIF children.length -->
@@ -49,6 +53,7 @@
 			<!-- IMPORT partials/paginator.tpl -->
 		<!-- ENDIF config.usePagination -->
 	</div>
+<<<<<<< HEAD
 	<div widget-area="sidebar" class="col-lg-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
 		<!-- BEGIN widgets.sidebar -->
 		{{widgets.sidebar.html}}
@@ -59,6 +64,9 @@
 	<!-- BEGIN widgets.footer -->
 	{{widgets.footer.html}}
 	<!-- END widgets.footer -->
+=======
+	<div widget-area="sidebar" class="col-lg-3 col-sm-12 hidden"></div>
+>>>>>>> Changes to support nodeBB 1.3.0
 </div>
 
 <!-- IMPORT partials/move_thread_modal.tpl -->

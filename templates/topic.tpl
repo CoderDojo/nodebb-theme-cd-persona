@@ -5,7 +5,12 @@
 	<!-- END widgets.header -->
 </div>
 <div class="row">
+<<<<<<< HEAD
 	<div class="topic <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
+=======
+	<div widget-area="header" class="col-sm-12"></div>
+	<div class="topic col-lg-12 col-sm-12" no-widget-class="topic col-lg-12 col-sm-12" no-widget-target="sidebar">
+>>>>>>> Changes to support nodeBB 1.3.0
 
 		<h1 component="post/header" class="hidden-xs" itemprop="name">
 
@@ -85,6 +90,7 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	<div widget-area="sidebar" class="col-lg-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
 		<!-- BEGIN widgets.sidebar -->
 		{{widgets.sidebar.html}}
@@ -95,6 +101,9 @@
 	<!-- BEGIN widgets.footer -->
 	{{widgets.footer.html}}
 	<!-- END widgets.footer -->
+=======
+	<div widget-area="sidebar" class="col-lg-3 col-sm-12 hidden"></div>
+>>>>>>> Changes to support nodeBB 1.3.0
 </div>
 
 <!-- IF !config.usePagination -->
