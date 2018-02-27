@@ -81,5 +81,5 @@
 				<!-- IMPORT partials/menu.tpl -->
 			</div>
 		</nav>
-		<div class="container" id="content">
+		<div class="container cd-menu__content-container" id="content">
 		<!-- IMPORT partials/noscript/warning.tpl -->
