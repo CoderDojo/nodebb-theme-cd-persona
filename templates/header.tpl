@@ -74,12 +74,6 @@
 	</nav>
 
 	<main id="panel" class="slideout-panel">
-		<nav class="navbar navbar-default navbar-fixed-top header" id="header-menu" component="navbar">
-			<!-- IMPORT partials/cd-header.tpl -->
-			<div class="container">
-				<!-- IMPORT partials/cd-content-header.tpl -->
-				<!-- IMPORT partials/menu.tpl -->
-			</div>
-		</nav>
-		<div class="container cd-menu__content-container" id="content">
+    <!-- IMPORT partials/cd-header.tpl -->
+		<div class="cd-menu__content-container" id="content">
 		<!-- IMPORT partials/noscript/warning.tpl -->

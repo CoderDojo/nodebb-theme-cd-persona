@@ -2,7 +2,11 @@
 # yarn lockfile v1
 
 
-pulling@2:
+"@coderdojo/cd-common@1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@coderdojo/cd-common/-/cd-common-1.1.12.tgz#2fdd6ddbfa34ff7801198a99f5d1d9836520e5d0"
+
+pulling@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pulling/-/pulling-2.0.0.tgz#5793d3b0ff8511a07465fd95a32498e4c2790c5f"
 

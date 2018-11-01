@@ -74,7 +74,7 @@
 					</li>
 					<!-- ENDIF !config.disableChat -->
 
-					<li id="user_label" class="dropdown">
+					<li id="user_label" class="dropdown hide">
 						<label for="user-control-list-check" class="dropdown-toggle" data-toggle="dropdown" id="user_dropdown" title="[[global:header.profile]]" role="button">
 							<!-- IF user.picture -->
 							<img component="header/userpicture" src="{user.picture}" alt="{user.username}"/>

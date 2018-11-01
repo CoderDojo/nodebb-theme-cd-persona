@@ -10,7 +10,6 @@
 		{ "hook": "filter:topic.build", "method": "addUserToTopic" },
 		{ "hook": "filter:meta.getLinkTags", "method": "getLinkTags"}
 	],
-	"languages": "languages",
 	"staticDirs": {
 		"images": "static/images",
 		"css": "static/css"
@@ -19,7 +18,9 @@
 		"lib/persona.js",
 		"lib/modules/nprogress.js",
 		"lib/modules/autohidingnavbar.min.js",
-		"lib/cd-common.min.js"
+    "lib/modules/quickreply.js",
+		"node_modules/@coderdojo/cd-common/dist/cd-common.min.js",
+		"lib/menu.js"
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"

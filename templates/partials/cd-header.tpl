@@ -265,10 +265,4 @@
       </div>
     </div>
   </nav>
-  <script type="text/javascript">
-    window.cdMenu({
-      zenBase: 'https://zen.coderdojo.com/',
-      loadProfileFromZen: false
-    });
-  </script>
 </header>

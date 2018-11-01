@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-cd-persona",
   "version": "9.0.42",
   "nbbpm": {
     "compatibility": "^1.10.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "Persona theme based for NodeBB for Coderdojo",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/coderdojo/nodebb-theme-cd-persona"
   },
   "keywords": [
     "nodebb",
@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "pulling": "^2.0.0",
-    "striptags": "^3.1.1"
+    "striptags": "^3.1.1",
+    "@coderdojo/cd-common": "1.1.12"
   }
 }
